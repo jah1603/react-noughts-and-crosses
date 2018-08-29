@@ -5,6 +5,11 @@ body {
   font-size: 5em;
 }
 
+tr {
+  position: relative;
+  left: 500vw;
+}
+
 button {
   padding: 25px;
   margin-left: 25px;

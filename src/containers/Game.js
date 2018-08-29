@@ -89,7 +89,14 @@ class Game extends Component {
             winner = {this.state.winner}
           />
         </div>
+        <tr align="center">
+          <td>
         <button onClick = {this.reloadPage}>Reset Game</button>
+          </td>
+          <td>
+            <button onClick = {this.reloadPage}>Undo Move</button>
+          </td>
+        </tr>
       </div>
     );
   }
